@@ -1,0 +1,10 @@
+expose:
+  tls:
+    enabled: false
+  ingress:
+    annotations:
+      ingress.kubernetes.io/proxy-body-size: "0"
+      ingress.kubernetes.io/ssl-redirect: "false"
+      nginx.ingress.kubernetes.io/proxy-body-size: 0                                │
+      nginx.ingress.kubernetes.io/ssl-redirect: "false"
+harborAdminPassword: Harbor12345
