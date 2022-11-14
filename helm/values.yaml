@@ -1,6 +1,6 @@
 image:
   # repository: harbor.127.0.0.1.nip.io/dot/silly-demo
-  repository: harbor-core.harbor/dot/silly-demo
+  repository: harbor.127.0.0.1.nip.io/dot/silly-demo
   tag: latest
 ingress:
   host: silly-demo.127.0.0.1.nip.io
